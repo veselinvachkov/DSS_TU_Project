@@ -1,0 +1,117 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.content-list {
+  flex: 2;
+  padding: 0 10px;
+  background-color: #f0f0f0;
+}
+
+.content-details {
+  flex: 1;
+  padding: 0 10px;
+  background-color: #fff;
+}
+
+.content-list h2,
+.content-details h2 {
+  margin-top: 0;
+}
+
+.content-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content-list li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.deleteButton {
+  background-color: #cc0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #ff3333;
+}
+
+.content-details form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-details input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.date-picker-wrapper {
+  position: relative;
+}
+
+.date-picker {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+#saveButton,
+#clearButton {
+  margin-top: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+#saveButton {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#saveButton:hover {
+  background-color: #45a049;
+}
+
+#clearButton {
+  background-color: #f44336;
+  color: white;
+}
+
+#clearButton:hover {
+  background-color: #d32f2f;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
